@@ -1,4 +1,4 @@
-To compile and run this application after downloading it from GitHub for the first time, follow these steps:
+1. To compile and run this application after downloading it from GitHub for the first time, follow these steps:
 
 1. Install Node.js
 Ensure you have Node.js installed on your system. You can download it from Node.js Official Website.
