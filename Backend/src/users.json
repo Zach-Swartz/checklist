@@ -1,14 +1,3 @@
 [
-  {
-    "email": "hello@garmo.com",
-    "password": "$2b$10$kL2J03lthE1F/lG/iy6iV.N7dt89pA55fWl/Sg/gyiNDMIl2.ATUC"
-  },
-  {
-    "email": "swarzm22@wfu.edu",
-    "password": "$2b$10$Mrlhptw98ahSUKDtv.MEDuh5uU6y3wBDeOFx5GxJT4hIoNW7/RqK6"
-  },
-  {
-    "email": "asdas",
-    "password": "$2b$10$wZ.apTiVB2Yeq3skGlOR.O8XmfRpXMEwfdf9oBQGJxoF7XmUMoUL2"
-  }
+  
 ]
