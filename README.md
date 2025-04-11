@@ -42,16 +42,16 @@ Upon running npm start, the app should automatically open in your we browser.
 If it doesn't automatically open, enter http://localhost:3000 in your browser to test the application.
 
 Summary of Commands
-# Clone the repository
+- Clone the repository
 git clone https://github.com/JoshD888/checklist.git
 cd checklist
-# Install dependencies
+- Install dependencies
 cd Frontend
 npm install
 cd ../Backend
 npm install express
-# Start the backend
+- Start the backend
 node src/index.js
-# Start the frontend
+- Start the frontend
 cd ../Frontend
 npm start
