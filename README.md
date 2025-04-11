@@ -13,7 +13,7 @@ Navigate to the project directory:
 cd checklist
 
 3. Install Dependencies
-The project likely has two main folders: Frontend and Backend. You need to install dependencies for both.
+The project has two main folders: Frontend and Backend. Store these in one large folder that you can title Checklist. You need to install dependencies for both.
 Frontend
 Navigate to the Frontend folder:
 cd Frontend
@@ -23,28 +23,23 @@ Backend
 Navigate to the Backend folder:
 cd ../Backend
 Install dependencies:
-npm install
+npm install express
 
-4. Set Up the Backend
+5. Set Up the Backend
 Start the backend server:
 node src/index.js
-If the backend uses environment variables (e.g., for database connections), ensure you create a .env file in the Backend directory and configure it as needed. Check the repository documentation or ask the project owner for details.
 
-5. Set Up the Frontend
+6. Set Up the Frontend
 Navigate back to the Frontend folder:
 cd ../Frontend
 Start the frontend development server:
 npm start
 This will start the React application and open it in your default browser at http://localhost:3000.
 
-6. Verify the Application
+7. Verify the Application
 Ensure the backend is running on http://localhost:3001.
-Open the frontend in your browser (http://localhost:3000) and test the application.
-
-7. Optional: Build for Production
-If you want to create a production build of the frontend:
-npm run build
-This will generate a build folder in the Frontend directory, which can be deployed to a web server.
+Upon running npm start, the app should automatically open in your we browser.
+If it doesn't automatically open, enter http://localhost:3000 in your browser to test the application.
 
 Summary of Commands
 # Clone the repository
@@ -54,7 +49,7 @@ cd checklist
 cd Frontend
 npm install
 cd ../Backend
-npm install
+npm install express
 # Start the backend
 node src/index.js
 # Start the frontend
