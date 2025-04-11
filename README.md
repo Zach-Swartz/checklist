@@ -8,7 +8,7 @@ npm -v
 
 2. Clone the Repository
 Clone the GitHub repository to your local machine:
-git clone https://github.com/JoshD888/checklist.git
+git clone [https://github.com/JoshD888/checklist.git](https://github.com/Zach-Swartz/checklist.git)
 Navigate to the project directory:
 cd checklist
 
@@ -43,7 +43,7 @@ If it doesn't automatically open, enter http://localhost:3000 in your browser to
 
 Summary of Commands
 - Clone the repository
-git clone https://github.com/JoshD888/checklist.git
+git clone [https://github.com/JoshD888/checklist.git](https://github.com/Zach-Swartz/checklist.git)
 cd checklist
 - Install dependencies
 cd Frontend
