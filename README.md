@@ -13,7 +13,7 @@ Navigate to the project directory:
 cd checklist
 
 3. Install Dependencies
-The project has two main folders: Frontend and Backend. Store these in one large folder that you can title Checklist. You need to install dependencies for both.
+The project has two main folders: Frontend and Backend. Store these in one large folder that you can title checklist. You need to install dependencies for both.
 Frontend
 Navigate to the Frontend folder:
 cd Frontend
