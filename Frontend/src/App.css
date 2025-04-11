@@ -1,0 +1,187 @@
+/* Global resets and typography */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f7f7f7;
+}
+
+/* Center the container */
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card styling for forms and tasks */
+.card {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(100, 100, 111, 0.1);
+  width: 320px;
+  text-align: center;
+}
+
+/* Header Styling */
+.card h1 {
+  margin-bottom: 1.5rem;
+  color: #34495e;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccd6dd; /* soft gray */
+  border-radius: 4px;
+  transition: border-color 0.2s;
+  background-color: #fdfefe;
+}
+
+input:focus {
+  outline: none;
+  border-color: #a29bfe; /* soft purple */
+  box-shadow: 0 0 5px rgba(162, 155, 254, 0.5); /* purple glow */
+}
+
+/* Button Styling */
+.btn {
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background-color: #a29bfe;
+  color: #fff;
+}
+
+.btn.primary:hover {
+  background-color: #836fff;
+}
+
+.btn.secondary {
+  background-color: #fab1a0;
+  color: #fff;
+}
+
+.btn.secondary:hover {
+  background-color: #f0938c;
+}
+
+/* Input group for task manager */
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.input-group input[type="text"] {
+  flex: 1;
+}
+
+/* Checklist styling */
+.checklist {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.checklist-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checklist-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Success Message */
+.message {
+  margin-top: 1rem;
+  color: #e17055;
+  font-weight: bold;
+}
+
+/* Additional Tasks Card Specific Styling */
+.card.tasks h1 {
+  margin-bottom: 1rem;
+}
+
+/* Dark Mode Styles */
+.dark {
+  background-color: #222;
+  color: #eee;
+  min-height: 100vh;
+}
+
+.dark .container {
+  background: transparent;
+}
+
+.dark body {
+  background: #222;
+  color: #eee;
+}
+
+/* Override card background and shadow */
+.dark .card {
+  background: #333;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Dark mode header */
+.dark .card h1 {
+  color: #ddd;
+}
+
+/* Inputs in dark mode */
+.dark input[type="text"],
+.dark input[type="email"],
+.dark input[type="password"] {
+  background-color: #444;
+  border: 1px solid #555;
+  color: #eee;
+}
+
+/* Input focus in dark mode */
+.dark input:focus {
+  border-color: #6c5ce7;
+  box-shadow: 0 0 5px rgba(108, 92, 231, 0.5);
+}
+
+/* Dark mode buttons */
+.dark .btn.primary {
+  background-color: #6c5ce7;
+  color: #fff;
+}
+
+.dark .btn.primary:hover {
+  background-color: #5941d1;
+}
+
+.dark .btn.secondary {
+  background-color: #fd79a8;
+  color: #fff;
+}
+
+.dark .btn.secondary:hover {
+  background-color: #e6677b;
+}
+
+/* Dark mode messages */
+.dark .message {
+  color: #ff6b6b;
+}
